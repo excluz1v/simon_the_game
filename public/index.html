@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <audio id="clip1">
+      <source src="http://www.kellyking.me/projects/simon/sounds/1.ogg"></source>
+          </audio>
+    <audio id="clip2">
+      <source src="http://www.kellyking.me/projects/simon/sounds/2.ogg"></source>
+    </audio>
+    <audio id="clip3">
+      <source src="http://www.kellyking.me/projects/simon/sounds/3.ogg"></source>
+    </audio>
+    <audio id="clip4">
+      <source src="http://www.kellyking.me/projects/simon/sounds/4.ogg"></source>
+    </audio>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
